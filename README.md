@@ -16,34 +16,6 @@ The Student Study Helper dashboard is designed with personalisation at its core 
 
 This personalisation ensures that each student can tailor the tool to their specific academic schedule and workload, making it a truly individualised study companion.
 
-## Likely Users - Persona Outline
-
-### Primary Persona: Emma Chen, Third-Year University Student
-
-**Demographics:**
-- Age: 21 years old
-- Major: Computer Science
-- Study load: 5 courses per semester
-- Part-time job: 15 hours/week
-
-**Behaviours:**
-- Juggles multiple assignments with varying deadlines
-- Often forgets submission dates for non-core subjects
-- Prefers digital organization over physical planners
-- Uses multiple apps for different tasks (calendar, notes, reminders)
-- Studies best with visual progress indicators
-
-**Pain Points:**
-- Overwhelmed by scattered assignment information across different platforms
-- Misses deadlines due to poor organization
-- Difficulty prioritizing tasks when multiple deadlines approach
-- Spends too much time organizing instead of studying
-
-**Technology Comfort:**
-- High - comfortable with web applications and digital tools
-- Prefers clean, modern interfaces with intuitive navigation
-- Uses both desktop and mobile devices for studying
-
 ## User Goals, Assumptions, and Hypothesis
 
 ### Assumption
@@ -53,7 +25,7 @@ We assume that university students struggle with managing multiple assignments a
 If students have access to a centralized dashboard that visually displays all assignments, provides priority-based categorization, and sends timely notifications for upcoming deadlines, then they will be more likely to complete assignments on time and experience reduced academic stress. The key metric for success would be a 30% reduction in missed deadlines and improved task completion rates.
 
 ### User Goal
-Emma's primary goal is to have a single, reliable platform where she can:
+Primary goal is to have a single, reliable platform where she can:
 1. View all her assignments at a glance
 2. Identify which tasks need immediate attention
 3. Add new assignments quickly without complex navigation
@@ -62,10 +34,10 @@ Emma's primary goal is to have a single, reliable platform where she can:
 
 ## How the Example Works for the User
 
-The Student Study Helper dashboard addresses Emma's needs through the following features:
+The Student Study Helper dashboard addresses Students needs through the following features:
 
 ### 1. **Centralised Navigation (Left Sidebar)**
-Emma can instantly switch between five key sections:
+It can instantly switch between five key sections:
 - **Summary Cards**: Quick overview of total assignments, weekly deadlines, high-priority tasks, and upcoming exams
 - **Assignment Tracker**: Complete list of all assignments with subject, due date, priority, and completion status
 - **To-Do Section**: Daily tasks management with priority levels and completion tracking
