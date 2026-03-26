@@ -1,0 +1,32 @@
+.main-content {
+  flex: 1;
+  padding: 32px 40px;
+  overflow-y: auto;
+  min-height: 100vh;
+}
+
+.content-header {
+  margin-bottom: 32px;
+}
+
+.content-header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #64748b;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding: 20px;
+  }
+  
+  .content-header h1 {
+    font-size: 1.5rem;
+  }
+}

@@ -1,0 +1,94 @@
+.tracker-section {
+  flex: 2;
+  min-width: 280px;
+}
+
+.section-card {
+  background: white;
+  border-radius: 28px;
+  padding: 24px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.03);
+  border: 1px solid #edf2f7;
+}
+
+.section-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-left: 4px solid #3b82f6;
+  padding-left: 14px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.assignments-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+
+.assignments-table th {
+  text-align: left;
+  padding: 12px 6px 12px 0;
+  color: #475569;
+  font-weight: 600;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.assignments-table td {
+  padding: 14px 6px 14px 0;
+  border-bottom: 1px solid #f1f5f9;
+  vertical-align: middle;
+}
+
+.urgent-row {
+  background-color: #fee2e2;
+  border-radius: 12px;
+}
+
+.priority-badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 30px;
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+.priority-high {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.priority-medium {
+  background: #fff3e3;
+  color: #b45309;
+}
+
+.priority-low {
+  background: #e0f2fe;
+  color: #0c4a6e;
+}
+
+.check-complete {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  accent-color: #3b82f6;
+}
+
+.urgent-note {
+  font-size: 0.7rem;
+  margin-top: 12px;
+  color: #b91c1c;
+}
+
+.empty-msg {
+  padding: 24px;
+  text-align: center;
+  color: #94a3b8;
+}
