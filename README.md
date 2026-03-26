@@ -1,84 +1,28 @@
 # Student Study Helper - Interactive Dashboard
 
 ## Project Brief
-
-Student Study Helper is a comprehensive React-based dashboard application designed to help students manage their academic workload efficiently. The application provides a centralized platform where students can track assignments, manage to-do lists, receive deadline notifications, and organize their study schedule through an intuitive left-side navigation interface. Built with modern React practices and responsive design principles, this tool aims to reduce academic stress by providing clear visualization of upcoming deadlines, priority-based task management, and seamless assignment tracking capabilities. The dashboard features five main modules: Summary Cards for quick statistics, Assignment Tracker for managing coursework, To-Do Section for daily tasks, Notifications for deadline alerts, and Add Subject functionality for creating new assignments with custom due dates. This project serves as a foundational academic management tool that can be extended for personalized study planning and progress monitoring.
+Student Study Helper is a React-based dashboard that helps university students efficiently manage assignments, track tasks, and receive deadline notifications through a centralized, intuitive interface. The system includes modules for summary statistics, assignment tracking, to-do lists, notifications, and adding subjects. With customizable subjects, deadlines, and priority levels, the dashboard allows students to visualize progress, prioritize tasks, and stay organized, reducing stress and improving academic performance. This project demonstrates a personalized and interactive academic management tool.
 
 ## Purpose of Site Personalisation
+The dashboard is personalized to meet individual student needs by enabling flexible navigation, task prioritization, custom data entry, visual progress tracking, and context-aware notifications. This ensures students can tailor the tool to their specific workload and deadlines, making it a reliable and individualized study companion.
 
-The Student Study Helper dashboard is designed with personalisation at its core to address the unique challenges faced by modern students in managing multiple academic responsibilities. The personalisation approach includes:
+## Likely Users - Persona
+**Sandesh Bhattarai**, a 25-year-old third-year Computer Science student with five courses per semester and a 15-hour/week part-time job, struggles to manage multiple deadlines across platforms. He prefers digital organization, uses visual progress indicators, and often misses deadlines due to scattered information and difficulty prioritizing tasks.
 
-- **Flexible Navigation**: Users can switch between different modules based on their immediate needs
-- **Priority Management**: Tasks and assignments can be categorized with High, Medium, or Low priority levels
-- **Custom Data Entry**: Students can add their own subjects, assignments, and deadlines
-- **Visual Progress Tracking**: Completed tasks and assignments are visually distinguished
-- **Context-Aware Notifications**: Deadlines are highlighted based on urgency (within 2 days)
-
-This personalisation ensures that each student can tailor the tool to their specific academic schedule and workload, making it a truly individualised study companion.
-
-## User Goals, Assumptions, and Hypothesis
-
-### Assumption
-We assume that university students struggle with managing multiple assignments across different subjects simultaneously, leading to missed deadlines and increased stress levels. Students need a centralized tool that can consolidate all academic tasks into one view, with clear prioritization and visual cues for upcoming deadlines.
-
-### Hypothesis
-If students have access to a centralized dashboard that visually displays all assignments, provides priority-based categorization, and sends timely notifications for upcoming deadlines, then they will be more likely to complete assignments on time and experience reduced academic stress. The key metric for success would be a 30% reduction in missed deadlines and improved task completion rates.
-
-### User Goal
-Primary goal is to have a single, reliable platform where she can:
-1. View all her assignments at a glance
-2. Identify which tasks need immediate attention
-3. Add new assignments quickly without complex navigation
-4. Track her daily to-do items alongside long-term assignments
-5. Receive automatic reminders for approaching deadlines
+## User Goals, Assumption, and Hypothesis
+**Assumption:** University students often struggle to manage multiple assignments simultaneously, leading to missed deadlines and increased stress.  
+**Hypothesis:** Providing a centralized dashboard that displays all assignments, visual priority levels, and timely notifications will help students complete tasks efficiently and reduce academic stress.  
+**User Goals:** Sandesh wants a single platform to view all assignments at a glance, identify urgent tasks, quickly add new assignments, track daily to-do items, and receive automatic reminders for approaching deadlines.
 
 ## How the Example Works for the User
-
-The Student Study Helper dashboard addresses Students needs through the following features:
-
-### 1. **Centralised Navigation (Left Sidebar)**
-It can instantly switch between five key sections:
-- **Summary Cards**: Quick overview of total assignments, weekly deadlines, high-priority tasks, and upcoming exams
-- **Assignment Tracker**: Complete list of all assignments with subject, due date, priority, and completion status
-- **To-Do Section**: Daily tasks management with priority levels and completion tracking
-- **Notifications**: Automatic alerts for deadlines within 3 days, with urgent items highlighted in red
-- **Add Subject**: Simple form to add new assignments with all necessary details
-
-### 2. **Visual Priority System**
-- Red badges for High priority items
-- Orange for Medium priority
-- Blue for Low priority
-- Red row highlighting for assignments due within 2 days
-
-### 3. **Interactive Task Management**
-- Checkboxes for marking assignments and tasks as complete
-- Strike-through effect for completed items
-- Delete functionality for removing completed or irrelevant tasks
-
-### 4. **Smart Notifications**
-- Automatic detection of deadlines within 3 days
-- Urgent flag for items due in 2 days
-- Visual pulse animation for critical deadlines
-
-### 5. **Data Persistence**
-- All assignments and tasks remain in the dashboard
-- Real-time updates as Emma adds or completes items
-- Consistent state across different sections
+The dashboard helps Sandesh by providing centralized navigation through five modules, visual priority indicators (color-coded by urgency), interactive task management (check, strike-through, delete), and smart notifications for approaching deadlines. All assignments and tasks persist in real-time, allowing Sandesh to manage her workload efficiently and focus on studying rather than organizing.
 
 ## Technical Implementation
+- **Frontend:** React 18 with Hooks (useState)  
+- **Styling:** Custom responsive CSS  
+- **Icons:** Font Awesome and emoji icons for visual appeal  
+- **Architecture:** Component-based for maintainability and modularity  
+- **Features:** Form validation, date-based urgency detection, priority-based task highlighting, real-time state updates, and responsive layout for desktop and tablet devices
 
-### Technology Stack
-- **Frontend**: React 18 with Hooks (useState for state management)
-- **Styling**: Custom CSS with responsive design
-- **Icons**: Font Awesome and emoji icons for visual appeal
-- **Architecture**: Component-based structure with separated concerns
-
-### Key Features Implemented
-- Responsive design that works on desktop and tablet devices
-- Component-based architecture for maintainability
-- Real-time state management without external dependencies
-- Form validation for adding new assignments
-- Date-based urgency detection algorithm
-- Modular CSS with component-specific styling
-
-## Repository Structure
+## Repository / Live Site
+You can access the repository and live demo at: https://github.com/bhattarai-sandesh/S126webstructure.git
